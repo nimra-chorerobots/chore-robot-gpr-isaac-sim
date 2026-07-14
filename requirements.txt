@@ -1,0 +1,3 @@
+numpy>=1.23,<3.0
+# ROS 2 packages below are normally installed through apt/rosdep, not pip:
+# rclpy, sensor_msgs, std_msgs, nav_msgs, visualization_msgs, cv_bridge
