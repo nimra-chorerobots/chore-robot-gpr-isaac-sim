@@ -1,0 +1,42 @@
+{
+  "_doc": "Ground-truth buried-object manifest for World_CityMassingDemopack_final_gpr.usda (Nova Carter environment scene). Positions are World-local, Z-up, meters, relative to Nova Carter's spawn at (40, -5, 0.02) in THIS scene -- do not reuse gpr_ground_truth.json from the ChoreRobot scene, its positions are in a different local frame.",
+  "coordinate_frame": "world",
+  "objects": [
+    {
+      "id": "buried_pipe_01",
+      "class": "pipe",
+      "material": "pvc",
+      "position_xy": [40.5, -4.7],
+      "depth_m": 0.25,
+      "radius_m": 0.05,
+      "relative_permittivity": 3.0
+    },
+    {
+      "id": "buried_rock_01",
+      "class": "rock",
+      "material": "granite",
+      "position_xy": [41.8, -5.4],
+      "depth_m": 0.35,
+      "radius_m": 0.30,
+      "relative_permittivity": 6.0
+    },
+    {
+      "id": "buried_root_01",
+      "class": "root",
+      "material": "organic",
+      "position_xy": [39.5, -4.2],
+      "depth_m": 0.15,
+      "radius_m": 0.18,
+      "relative_permittivity": 12.0
+    },
+    {
+      "id": "buried_utility_cable_01",
+      "class": "cable",
+      "material": "copper_sheathed",
+      "position_xy": [38.5, -5.9],
+      "depth_m": 0.20,
+      "radius_m": 0.02,
+      "relative_permittivity": 2.3
+    }
+  ]
+}
