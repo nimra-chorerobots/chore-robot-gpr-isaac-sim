@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# ROS 2 / colcon
+build/
+install/
+log/
+*.bag
+*.db3
+*.mcap
+
+# Isaac Sim / Omniverse generated data
+.cache/
+.cache_ov/
+ov/cache/
+ov/data/
+ov/logs/
+kit/cache/
+kit/logs/
+*.usd~
+*.usda~
+*.usdc~
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Runtime output
+outputs/
+results/
+logs/
+*.log
